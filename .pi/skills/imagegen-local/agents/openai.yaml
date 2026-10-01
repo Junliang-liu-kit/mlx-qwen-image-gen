@@ -1,0 +1,4 @@
+interface:
+  display_name: "本地文生图"
+  short_description: "把自然语言生图意图转成脚本参数并串行调用本地 MLX 生图"
+  default_prompt: "Use $imagegen-local to generate a 720x720 cartoon dragon sticker with a transparent background."
