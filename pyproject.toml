@@ -1,0 +1,16 @@
+[project]
+name = "1-project-template"
+version = "0.1.0"
+description = "常见python项目的模板"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=26.3.1",
+    "pylint>=4.0.5",
+    "pyyaml>=6.0.3",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+
